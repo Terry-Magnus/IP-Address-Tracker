@@ -1,10 +1,11 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import "leaflet/dist/leaflet.css"
+import marker from "../assets/images/icon-location.svg"
 import L from "leaflet"
 
 const icon = new L.Icon({
-    iconUrl: "../assets/images/icon-location.svg",
+    iconUrl: marker,
     iconSize: [25, 41]
 })
 
