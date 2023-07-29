@@ -7,8 +7,8 @@ const LocationBar = ({ info }) => {
             <div>LOCATION<br />
                 <span>{`${info.location.city}, ${info.location.country} ${info.location.postalCode}`}</span>
             </div>
-            <div>Timezone {info.location.timezone}</div>
-            <div>ISP  {info.isp}</div>
+            <div>Timezone <br />{info.location.timezone}</div>
+            <div>ISP <br /> {info.isp}</div>
         </div>
     )
 }

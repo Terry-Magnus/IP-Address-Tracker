@@ -6,7 +6,7 @@ import L from "leaflet"
 
 const icon = new L.Icon({
     iconUrl: marker,
-    iconSize: [25, 41]
+    iconSize: [41, 41]
 })
 
 const MapBox = ({ coordinates }) => {
